@@ -80,7 +80,7 @@
 				z-index: 3333;
 			}
 			
-			.selt{
+			.selt {
 				display: none;
 				position: absolute;
 				right: 0.5rem;
@@ -92,14 +92,16 @@
 				z-index: 999;
 			}
 			
-			.swiper-pagination-bullet{
+			.swiper-pagination-bullet {
 				width: 0.8rem;
 				height: 0.15rem;
 				border-radius: 0;
 			}
-			.swiper-pagination-bullet-active{
+			
+			.swiper-pagination-bullet-active {
 				background: #FFFFFF;
 			}
+			
 			.swiper1 {
 				width: 100%;
 				height: 8.875rem;
@@ -115,14 +117,13 @@
 				height: 4rem;
 			}
 			
-			
 			.b1 {
 				display: block;
 				width: 100%;
 				height: 1.5rem;
 			}
 			
-			.mask{
+			.mask {
 				position: fixed;
 				width: 100%;
 				height: 100vh;
@@ -131,7 +132,7 @@
 				z-index: 999999999;
 			}
 			
-			.close{
+			.close {
 				position: absolute;
 				right: 0.5rem;
 				top: 3.4rem;
@@ -142,22 +143,21 @@
 	</head>
 
 	<body style="position: relative;">
-		<div class="mask">
+		<!--<div class="mask">
 			<div class="close"></div>
 			<a class="a5" href="#"></a>
-		</div>
-		
+		</div>-->
+
 		<a class="a1" href="进入注册3.html"></a>
 		<a class="a2" href="点击登录3.html"></a>
 		<a class="a3" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwOTM2MTE0MA==&scene=110#wechat_redirect"></a>
 		<span class="a4" href="#"></span>
-		
+
 		<div class="selt">
 			<a class="b1" href="#"></a>
 			<a class="b1" href="#"></a>
 		</div>
-		
-		
+
 		<!--第一-->
 		<a href="http://m.suning.com/" style="position:absolute; width:25%;padding-bottom: 25%;left:0;top:19.8rem;"></a>
 
@@ -203,58 +203,52 @@
 
 		<a href="http://www.jfcx.cn/index.html" style="position:absolute; width:25%;padding-bottom: 25%;right:0;top:68.5rem;"></a>
 		
-		
-
 		<img src="../img/nav-love.jpg" alt="" style=" width: 100%; display: block;">
-		
+
 		<img src="../img/bannerA1.jpg" alt="" style=" width: 100%; display: block;">
-		
+
 		<img src="../img/sy-22.jpg" alt="" style=" width: 100%; display: block;">
-		
+
 		<div class="swiper-container swiper2">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide"><img src="../img/bannerB1.jpg" /></div>
 				<div class="swiper-slide"><img src="../img/bannerB2.jpg" /></div>
 			</div>
-			<!-- 如果需要分页器 -->
 			<div class="swiper-pagination"></div>
 		</div>
-		
+
 		<img src="../img/sy-33.jpg" alt="" style=" width: 100%; display: block;">
-		
+
 		<div class="swiper-container swiper3">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide"><img src="../img/bannerC1.jpg" /></div>
 				<div class="swiper-slide"><img src="../img/bannerB2.jpg" /></div>
 			</div>
-			<!-- 如果需要分页器 -->
 			<div class="swiper-pagination"></div>
 		</div>
-		
+
 		<img src="../img/sy-44.jpg" alt="" style=" width: 100%; display: block;">
-		
+
 		<div class="swiper-container swiper4">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide"><img src="../img/bannerD1.jpg" /></div>
 				<div class="swiper-slide"><img src="../img/bannerB2.jpg" /></div>
 			</div>
-			<!-- 如果需要分页器 -->
 			<div class="swiper-pagination"></div>
 		</div>
-		
+
 		<img src="../img/sy-55.png" alt="" style=" width: 100%; display: block;">
-		
+
 		<div class="swiper-container swiper2">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide"><img src="../img/bannerB1.jpg" /></div>
 				<div class="swiper-slide"><img src="../img/bannerB2.jpg" /></div>
 			</div>
-			<!-- 如果需要分页器 -->
 			<div class="swiper-pagination"></div>
 		</div>
-		
+
 		<img src="../img/sy-66.png" alt="" style=" width: 100%; display: block;margin-bottom: 2rem;">
-		
+
 		<div class="layout-tr" style="position:fixed;height:2.5rem;width:100%;left:0;bottom:0;z-index:9999999;padding:0;">
 			<a style="width:50%;height:100%" href="../购物/首页1.html"></a>
 			<a style="width:50%;height:100%" href="../我的恋爱消费保/未登录.html"></a>
@@ -264,49 +258,46 @@
 	<script type="application/javascript" src="../js/jquery-3.1.0.js"></script>
 	<script type="application/javascript" src="../js/swiper.min.js"></script>
 	<script type="application/javascript">
-	window.onload = function(){
-			
-		
-		var mySwiper = new Swiper('.swiper2', {
-			direction: 'horizontal',
-			loop: true,
-			autoplay : 2200,
-			speed : 500,
-			autoplayDisableOnInteraction : false,
-			pagination: '.swiper-pagination',
+		window.onload = function() {
 
-		})
-		
-		var mySwiper = new Swiper('.swiper3', {
-			direction: 'horizontal',
-			loop: true,
-			autoplay : 2400,
-			speed : 500,
-			autoplayDisableOnInteraction : false,
-			pagination: '.swiper-pagination',
+			var mySwiper = new Swiper('.swiper2', {
+				direction: 'horizontal',
+				loop: true,
+				autoplay: 2200,
+				speed: 500,
+				autoplayDisableOnInteraction: false,
+				pagination: '.swiper-pagination',
 
-		})
-		
-		
-		var mySwiper = new Swiper('.swiper4', {
-			direction: 'horizontal',
-			loop: true,
-			autoplay : 2600,
-			speed : 500,
-			autoplayDisableOnInteraction : false,
-			pagination: '.swiper-pagination',
+			})
 
-		})
-		
-		
-		$(".a4").on("click",function(){
-			$(".selt").toggle();
-		})
-		
-		$(".close").on("click",function(){
-			$(".mask").hide();
-		})
-	}
+			var mySwiper = new Swiper('.swiper3', {
+				direction: 'horizontal',
+				loop: true,
+				autoplay: 2400,
+				speed: 500,
+				autoplayDisableOnInteraction: false,
+				pagination: '.swiper-pagination',
+
+			})
+
+			var mySwiper = new Swiper('.swiper4', {
+				direction: 'horizontal',
+				loop: true,
+				autoplay: 2600,
+				speed: 500,
+				autoplayDisableOnInteraction: false,
+				pagination: '.swiper-pagination',
+
+			})
+
+			$(".a4").on("click", function() {
+				$(".selt").toggle();
+			})
+
+			$(".close").on("click", function() {
+				$(".mask").hide();
+			})
+		}
 	</script>
 
 </html>
